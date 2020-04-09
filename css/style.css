@@ -145,3 +145,46 @@ section {
     justify-content: space-around;
     text-align: center;
 }
+
+/* Media */
+@media (max-width: 700px) {
+
+    .section-top .content,
+    .section-stream .play,
+    .section-stream .content {
+        position: static;
+        width: 100%;
+    }
+
+    .section-top {
+        min-height: 200px;
+        padding-top: 20px;
+    }
+
+    .section-top h1 {
+        font-size: 45px;
+    }
+
+    .section-top .content {
+        text-align: center;
+    }
+
+    .section-stream {
+        min-height: 400px;
+    }
+
+    .section-stream .play {
+        display: block;
+        width: 50%;
+        margin: 30px auto;
+    }
+
+    .section-grid {
+        display: block;
+        margin-top: 0;
+    }
+
+    .footer ul {
+        display: block;
+    }
+}
